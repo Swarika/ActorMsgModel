@@ -1,0 +1,2 @@
+# ActorMsgModel
+Task scheduling based on actor msg model where tasks allocated by application actor are sent as messages to different actors. Each actor is alloted time through fixed priority scheduling. Application actor contains the business logic and other actors are the different modules of the code.  Messages are stored in the form of queues implemented through a linked list. Similarly, actors are registered as subsequent nodes in a linked list.
